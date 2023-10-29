@@ -6,6 +6,9 @@ on:
       - main
   pull_request:
 
+env:
+  TF_CLOUD_ORGANIZATION: "fiap-tech-fastfood"
+
 jobs:
   terraform:
     name: "Terraform"
