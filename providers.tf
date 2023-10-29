@@ -8,5 +8,6 @@ terraform {
 
 provider "aws" {
   region                   = "us-east-1"
-  shared_credentials_files = ["~/.aws/credentials"]
+  access_key = "AKIAR73XG2I23OWYBYEZ"
+  secret_key = "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"
 }
