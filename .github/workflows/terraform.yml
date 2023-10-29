@@ -6,7 +6,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "fiap-tech"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "fiap-tech"
+  TF_WORKSPACE: "fiap-tech-workspace"
   CONFIG_DIRECTORY: "./"
 
 jobs:
