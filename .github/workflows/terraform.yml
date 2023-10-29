@@ -6,8 +6,6 @@ on:
       - main
   pull_request:
 
-env:
-  TF_CLOUD_ORGANIZATION: "fiap-tech"
 jobs:
   terraform:
     name: "Terraform"
